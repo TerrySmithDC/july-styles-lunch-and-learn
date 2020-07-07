@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lunch and Learn</title>
+    <link rel="stylesheet" href="dist/site.css" />
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Demo banner -->
+    <div class="fixed top-0 left-0 w-full bg-purple-600 py-3 px-6">
+      Hello Halihax!
+    </div>
+    <header class="mt-12">
+      <nav class="block md:flex justify-between items-baseline p-6">
+        <ul class="flex-1 flex items-baseline space-x-5">
+          <li class="hover:text-purple-400">
+            <a href="#"><h1 class="text-2xl">My Site</h1></a>
+          </li>
+          <li class="hover:text-purple-400">
+            <a href="#">About Us</a>
+          </li>
+          <li class="hover:text-purple-400">
+            <a href="#">Product</a>
+          </li>
+          <li class="hover:text-purple-400">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <input
+          class="bg-gray-800 p-2 rounded-sm flex-auto outline-none text-purple-600 w-full md:w-auto mt-3 md:mt-0"
+          type="text"
+          name="Search"
+          id="search"
+          placeholder="Search this site"
+        />
+      </nav>
+    </header>
+    <article>
+      <!-- Hero -->
+      <!-- <div class="">
+        <h1 class="">TailwindCSS is pretty neat</h1>
+        <p class="">
+          Made in Canada! From Adam Wathan and Steve Schoger (Author of
+          <a class="" href="https://refactoringui.com/">Refactoring UI</a>)
+        </p>
+        <a class="">Get Started</a>
+      </div> -->
+      <div class="border-b border-gray-800 border-solid"></div>
+      <!-- Responsive Design, small to large -->
+      <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Component -->
+          <div class="card border-b border-gray-800 border-solid">
+            <h3 class="card-header">Item 1</h3>
+            <p class="leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, iure expedita praesentium maxime modi, aspernatur
+              voluptatem veniam reprehenderit at autem perferendis obcaecati
+              iusto inventore laborum alias aliquid labore aut explicabo.
+            </p>
+          </div>
+          <!-- Component -->
+          <div
+            class="card border-l border-r border-b border-gray-800 border-solid"
+          >
+            <h3 class="card-header">Item 2</h3>
+            <p class="leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, iure expedita praesentium maxime modi, aspernatur
+              voluptatem veniam reprehenderit at autem perferendis obcaecati
+              iusto inventore laborum alias aliquid labore aut explicabo.
+            </p>
+          </div>
+          <!-- Component -->
+          <div class="card border-b border-gray-800 border-solid">
+            <h3 class="card-header">Item 3</h3>
+            <p class="leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, iure expedita praesentium maxime modi, aspernatur
+              voluptatem veniam reprehenderit at autem perferendis obcaecati
+              iusto inventore laborum alias aliquid labore aut explicabo.
+            </p>
+          </div>
+          <!-- Component -->
+          <div class="p-10">
+            <h3 class="card-header">Item 4</h3>
+            <p class="leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, iure expedita praesentium maxime modi, aspernatur
+              voluptatem veniam reprehenderit at autem perferendis obcaecati
+              iusto inventore laborum alias aliquid labore aut explicabo.
+            </p>
+          </div>
+          <!-- Component -->
+          <div class="card border-l border-r border-gray-800 border-solid">
+            <h3 class="card-header">Item 5</h3>
+            <p class="leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, iure expedita praesentium maxime modi, aspernatur
+              voluptatem veniam reprehenderit at autem perferendis obcaecati
+              iusto inventore laborum alias aliquid labore aut explicabo.
+            </p>
+          </div>
+          <!-- Component -->
+          <div class="card">
+            <h3 class="card-header">Item 6</h3>
+            <p class="leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, iure expedita praesentium maxime modi, aspernatur
+              voluptatem veniam reprehenderit at autem perferendis obcaecati
+              iusto inventore laborum alias aliquid labore aut explicabo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer class="border-t border-gray-800 border-solid py-10">
+      <ul class="flex justify-center space-x-3">
+        <li class="hover:text-purple-600">
+          <a href="#">About Us</a>
+        </li>
+        <li class="hover:text-purple-600">
+          <a href="#">Product</a>
+        </li>
+        <li class="hover:text-purple-600">
+          <a href="#">Contact</a>
+        </li>
+        <li>My Site &copy; 2020</li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+.card {
+  @apply p-10;
+}
+
+.card-header {
+  @apply font-bold text-xl mb-3;
+}
+
+@tailwind utilities;
